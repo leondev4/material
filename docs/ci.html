@@ -63,7 +63,7 @@
 
 
     <!-- Navbar Start -->
-     <div class="container-fluid p-0">
+    <div class="container-fluid p-0">
         <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0 px-lg-5">
             <a href="index.html" class="navbar-brand ml-lg-3">
                 <h1 class="m-0 text-uppercase text-primary"><i class="fa fa-book-reader mr-3"></i>Edukate</h1>
@@ -79,7 +79,7 @@
                     <a href="ci.html" class="nav-item nav-link">C. Integral</a>
                     <a href="#" class="nav-item nav-link">C. Vectorial</a>
                     <a href="#" class="nav-item nav-link">C. Vectorial</a>
-                  
+
                 </div>
             </div>
         </nav>
@@ -113,12 +113,14 @@
                                 <!-- tema 1 -->
                                 <li class=" list-group-item">
                                 <h5>Tema 1</h5>
-                                <a href="ci/tema1/html/1.2-notacion-sumatoria.html" class="text-left btn btn-link btn-block">1.2 Notación sumatoria</a>
+                                <a href="ci/tema1/html/1.2-notacion-sumatoria.html"
+                                    class="text-left btn btn-link btn-block">1.2 Notación sumatoria</a>
                                 </li>
                                 <!-- tema 2 -->
                                 <li class="list-group-item">
                                     <h5>Tema 2</h5>
-                                    <a href="ci/tema1/html/1.2-notacion-sumatoria.html" class="text-left btn btn-link btn-block">1.2 Notación sumatoria</a>
+                                    <a href="ci/tema1/html/1.2-notacion-sumatoria.html"
+                                        class="text-left btn btn-link btn-block">1.2 Notación sumatoria</a>
                                 </li>
 
                             </ul>
@@ -138,12 +140,14 @@
                                 <!-- tema 1 -->
                                 <li class=" list-group-item">
                                 <h5>Tema 1</h5>
-                               <a href="ci/tema1/html/1.2-notacion-sumatoria.html" class="text-left btn btn-link btn-block">1.2 Notación sumatoria</a>
+                                <a href="ci/tema1/html/1.2-notacion-sumatoria.html"
+                                    class="text-left btn btn-link btn-block">1.2 Notación sumatoria</a>
                                 </li>
                                 <!-- tema 2 -->
                                 <li class="list-group-item">
                                     <h5>Tema 2</h5>
-                                   <a href="ci/tema1/html/1.2-notacion-sumatoria.html" class="text-left btn btn-link btn-block">1.2 Notación sumatoria</a>
+                                    <a href="ci/tema1/html/1.2-notacion-sumatoria.html"
+                                        class="text-left btn btn-link btn-block">1.2 Notación sumatoria</a>
                                 </li>
 
                             </ul>
@@ -161,12 +165,14 @@
                                 <!-- tema 1 -->
                                 <li class=" list-group-item">
                                 <h5>Tema 1</h5>
-                                <a href="ci/tema1/html/1.2-notacion-sumatoria.html" class="text-left btn btn-link btn-block">1.2 Notación sumatoria</a>
+                                <a href="ci/tema1/html/1.2-notacion-sumatoria.html"
+                                    class="text-left btn btn-link btn-block">1.2 Notación sumatoria</a>
                                 </li>
                                 <!-- tema 2 -->
                                 <li class="list-group-item">
                                     <h5>Tema 2</h5>
-                                    <a href="ci/tema1/html/1.2-notacion-sumatoria.html" class="text-left btn btn-link btn-block">1.2 Notación sumatoria</a>
+                                    <a href="ci/tema1/html/1.2-notacion-sumatoria.html"
+                                        class="text-left btn btn-link btn-block">1.2 Notación sumatoria</a>
                                 </li>
 
                             </ul>
@@ -271,7 +277,23 @@
     <!-- Back to Top -->
     <a href="#" class="btn btn-lg btn-primary rounded-0 btn-lg-square back-to-top"><i
             class="fa fa-angle-double-up"></i></a>
+            
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const navLinks = document.querySelectorAll('nav a');
+            const currentPath = window.location.pathname;
+            //remove link activce
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+            });
 
+            navLinks.forEach(link => {
+                if (link.getAttribute('href') === currentPath.substring(currentPath.lastIndexOf('/') + 1)) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    </script>
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
