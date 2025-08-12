@@ -16,3 +16,14 @@ espacio blanco &nbsp;
 
 Formulas matematicas
 $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$
+
+
+Distribucion Kahoot para CI, 5 puntos extra como maximo.
+1.2, 1.3, 1.10 
+2.3.1-2.3.2, 2.3.3-2.3.4, 2.3.5-2.3.6
+3.3, 3.2-3.3,3.4
+
+
+Desarrollar el tema "Cálculo de integrales definidas básicas." en formato markmap; colocar ejemplos y varios ejercicios por cada subtema. Para las formulas, utilizar katex.
+
+Generar 8 preguntas sobre el tema "Cálculo de integrales definidas básicas.", con 4 opciones (a,b,c y d) para poder colocarlas en kahoot; si hay formulas matematicas, utilizar katex. Mostrar la solucion de cada reactivo. Generar todo en formato markmap
