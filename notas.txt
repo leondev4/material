@@ -23,6 +23,7 @@ Distribucion Kahoot para CI, 5 puntos extra como maximo.
 2.3.1-2.3.2, 2.3.3-2.3.4, 2.3.5-2.3.6
 3.3, 3.2-3.3,3.4
 
+\left(\frac{f} {g} \right)
 
 Desarrollar el tema "Cálculo de integrales definidas básicas." en formato markmap; colocar ejemplos y varios ejercicios por cada subtema. Para las formulas, utilizar katex.
 
