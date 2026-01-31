@@ -27,4 +27,4 @@ Distribucion Kahoot para CI, 5 puntos extra como maximo.
 
 Desarrollar el tema "Cálculo de integrales definidas básicas." en formato markmap; colocar ejemplos y varios ejercicios por cada subtema. Para las formulas, utilizar katex.
 
-Generar 8 preguntas sobre el tema "Cálculo de integrales definidas básicas.", con 4 opciones (a,b,c y d) para poder colocarlas en kahoot; si hay formulas matematicas, utilizar katex. Mostrar la solucion de cada reactivo. Generar todo en formato markmap
+Generar 8 preguntas sobre el tema "Cálculo de integrales definidas básicas."; con nivel basico-intermedio,  con 4 opciones (a,b,c y d) para poder colocarlas en kahoot; si hay formulas matematicas, utilizar katex. Mostrar la solucion de cada reactivo. Generar todo en formato markmap
